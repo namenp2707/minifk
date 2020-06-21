@@ -7,6 +7,7 @@ metadata:
   namespace: default
 spec:
   externalTrafficPolicy: Cluster
+  loadBalancerIP: 172.17.0.200
   ports:
   - port: 9090
     protocol: TCP
